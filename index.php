@@ -98,7 +98,38 @@ class Trainer extends Creature{
     }
 }
 
-class 
+class SuperSet extends Trainer{
+    private $superset;
+    function __construct($name,$hp,$img,$attackMin,$attackMax,$superset){
+        parent::__construct($name,$hp,$img,$attackMin,$attackMax);
+        $this->superset = $superset;
+    }
+    public function getsuperset(){
+        return $this->superset;
+    }
+    public function attack($targetObj){
+        if(!mt_rand(0,4)){
+            History::set($this->name.'のスーパーセット！！');
+            $targetObj->setHp($targetObj->getHp() - $this->superset);
+            History::set($this->superset.'ポイントのダメージを受けた！');
+        }else{
+            parent::attack($targetObj);
+        }
+    }
+}
+interface HistoryInterface{
+    public static function set($str);
+    public static function clear();
+}
+class History implements HistoryInterface{
+    public static function set($str){
+        if(empty($_SESSION['history'])) $_SESSION['history'] = '';
+        $_SESSION['history'].=$str.'<br>';
+    }
+    public static function clear(){
+        unset($_SESSION['history']);
+    }
+}
 ?>
 
 <!DOCTYPE html>
