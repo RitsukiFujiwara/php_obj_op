@@ -132,8 +132,37 @@ class History implements HistoryInterface{
 }
 // インスタンス生成
 $human = new Human('トレーニング初心者',KINNIKU::GARI,100,40,120);
-$trainer = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png',20,10);
-$trainer = new Trainer('イキリの学生',80,'img/img2.png',30,10);
+$trainers[] = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png',20,10);
+$trainers[] = new Trainer('イキリの学生',80,'img/img2.png',30,10);
+$trainers[] = new SuperSet('ボディビルダーの男',100,'img/img3.png',40,50, mt_rand(80,100));
+
+
+function createTrainer(){
+    global $trainers;
+    $trainer = $trainers[mt_rand(0,7)];
+    History::set($trainer->getName().'が現れた！');
+    $_SESSION['trainer'] = $trainer;
+}
+function createHuman(){
+    global $human;
+    $_SESSION['human'] = $human;
+}
+function init(){
+    History::clear();
+    History::set('初期化します。');
+    $_SESSION['knockDownCount'] = 0;
+    createHuman();
+    createTrainer();
+}
+function gameOver(){
+    $_SESSION = array();
+}
+
+// 1.post送信されていた場合
+if(!empty($_POST)){
+    $attackFlg = (!empty($_POST['attack'])) ? true  : false;
+    $startFlg = (!empty($_POST['start'])) ? true : false;
+}
 ?>
 
 <!DOCTYPE html>
