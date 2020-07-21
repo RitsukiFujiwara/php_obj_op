@@ -162,6 +162,18 @@ function gameOver(){
 if(!empty($_POST)){
     $attackFlg = (!empty($_POST['attack'])) ? true  : false;
     $startFlg = (!empty($_POST['start'])) ? true : false;
+    error_log('POSTされた！');
+
+    if($startFlg){
+        History::set('ゲームスタート！');
+        init();
+    }else{
+        if($attackFlg){
+            History::set($_SESSION['human']->getName().'のメニュー！');
+            $_SESSION['human']->attack($_SESSION['trainer']);
+            $_SESSION['trainer']->sayCry();
+        }
+    }
 }
 ?>
 

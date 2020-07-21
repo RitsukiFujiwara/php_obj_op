@@ -1,0 +1,5 @@
+[21-Jul-2020 07:41:29 Asia/Tokyo] PHP Notice:  Undefined index: trainer in /Applications/MAMP/htdocs/php_obj_op/index.php on line 151
+[21-Jul-2020 07:41:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:151
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 151
