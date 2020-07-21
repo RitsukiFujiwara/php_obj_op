@@ -130,6 +130,10 @@ class History implements HistoryInterface{
         unset($_SESSION['history']);
     }
 }
+// インスタンス生成
+$human = new Human('トレーニング初心者',KINNIKU::GARI,100,40,120);
+$trainer = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png',20,10);
+$trainer = new Trainer('イキリの学生',80,'img/img2.png',30,10);
 ?>
 
 <!DOCTYPE html>
