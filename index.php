@@ -172,8 +172,23 @@ if(!empty($_POST)){
             History::set($_SESSION['human']->getName().'のメニュー！');
             $_SESSION['human']->attack($_SESSION['trainer']);
             $_SESSION['trainer']->sayCry();
+
+            // 自分のhpが０以下になったらゲームオーバー
+            if($_SESSION['human']->getHp() <= 0){
+                gameOver();
+            }else{
+                if($_SESSION['trainer']->getHp() <= 0){
+                    History::set($_SESSION['trainer']->getName().'のメニューを突破した！');
+                    createTrainer();
+                    $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
+                }
+            }
+        }else{
+            History::set('逃げた！');
+            createTrainer();
         }
     }
+    $_POST = array();
 }
 ?>
 
@@ -197,14 +212,14 @@ if(!empty($_POST)){
         <div>
             <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
         </div>
-            <p>残りトレーニングメニュー:<?php echo $_SESSION['trainer']->getMenu(); ?></p>
+        <p>残りトレーニングメニュー:<?php echo $_SESSION['trainer']->getHp(); ?></p>
             <p>合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
             <p>自分の残りエネルギー:<?php echo $_SESSION['human']->getHp(); ?></p>
             <form method="post">
-                <input type="submit" value="attack" value="▶︎メニューをこなす">
-                <input type="submit" value="drink" value="▶︎ワークアウトドリンクを飲む">
-                <input type="submit" value="escape" value="▶︎逃げる">
-                <input type="submit" value="start" value="▶︎ゲームリスタート">
+                <input type="submit" name="attack" value="▶︎メニューをこなす">
+                <input type="submit" name="drink" value="▶︎ワークアウトドリンクを飲む">
+                <input type="submit" name="escape" value="▶︎逃げる">
+                <input type="submit" name="start" value="▶︎ゲームリスタート">
             </form>
             <?php } ?>
             <div>
