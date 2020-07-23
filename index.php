@@ -40,7 +40,7 @@ abstract class Creature{
             History::set($this->getName().'の火事場の馬鹿力！！');
         }
         $targetObj->setHp($targetObj->getHp()-$attackPoint);
-        History::set($attackPoint.'ポイントのダメージ！');
+        History::set($attackPoint.'個のメニューを突破');
     }
 }
 // 人クラス
@@ -111,7 +111,7 @@ class SuperSet extends Trainer{
         if(!mt_rand(0,4)){
             History::set($this->name.'のスーパーセット！！');
             $targetObj->setHp($targetObj->getHp() - $this->superset);
-            History::set($this->superset.'ポイントのダメージを受けた！');
+            History::set($this->superset.'ポイントの負荷を受けた！');
         }else{
             parent::attack($targetObj);
         }
@@ -131,15 +131,15 @@ class History implements HistoryInterface{
     }
 }
 // インスタンス生成
-$human = new Human('トレーニング初心者',KINNIKU::GARI,100,40,120);
-$trainers[] = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png',20,10);
-$trainers[] = new Trainer('イキリの学生',80,'img/img2.png',30,10);
-$trainers[] = new SuperSet('ボディビルダーの男',100,'img/img3.png',40,50, mt_rand(80,100));
+$human = new Human('トレーニング初心者',KINNIKU::GARI,100,1,2);
+$trainers[] = new Trainer('トレーニング好きのおじちゃん',2,'img/img01.png',20,10);
+$trainers[] = new Trainer('イキリの学生',5,'img/img2.png',30,10);
+$trainers[] = new SuperSet('ボディビルダーの男',8,'img/img3.png',40,50, mt_rand(80,100));
 
 
 function createTrainer(){
     global $trainers;
-    $trainer = $trainers[mt_rand(0,7)];
+    $trainer = $trainers[mt_rand(0,2)];
     History::set($trainer->getName().'が現れた！');
     $_SESSION['trainer'] = $trainer;
 }
@@ -162,6 +162,7 @@ function gameOver(){
 if(!empty($_POST)){
     $attackFlg = (!empty($_POST['attack'])) ? true  : false;
     $startFlg = (!empty($_POST['start'])) ? true : false;
+    $drinkFlg = (!empyt($_POST['drink'])) ? true : false;
     error_log('POSTされた！');
 
     if($startFlg){
@@ -169,9 +170,14 @@ if(!empty($_POST)){
         init();
     }else{
         if($attackFlg){
-            History::set($_SESSION['human']->getName().'のメニュー！');
+            // トレーナーのメニューを行う
+            History::set($_SESSION['human']->getName().'がトレーニングを行う');
             $_SESSION['human']->attack($_SESSION['trainer']);
             $_SESSION['trainer']->sayCry();
+            // hpにダメージを受ける
+            History::set($_SESSION['trainer']->getName().'のメニュー');
+            $_SESSION['trainer']->attack($_SESSION['human']);
+            $_SESSION['human']->sayCry();
 
             // 自分のhpが０以下になったらゲームオーバー
             if($_SESSION['human']->getHp() <= 0){
@@ -183,6 +189,9 @@ if(!empty($_POST)){
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 }
             }
+        }elseif($drinkFlg){          
+            History::set($_SESSION['human']->getName().'がワークアウトドリングを飲んだ！');
+                $_SESSION['human']->getHp()+10;
         }else{
             History::set('逃げた！');
             createTrainer();
@@ -198,21 +207,74 @@ if(!empty($_POST)){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>タイトル</title>
+    <style>
+    	body{
+	    	margin: 0 auto;
+	    	padding: 150px;
+	    	width: 25%;
+	    	background: #fbfbfa;
+        color: white;
+    	}
+    	h1{ color: white; font-size: 20px; text-align: center;}
+      h2{ color: white; font-size: 16px; text-align: center;}
+    	form{
+	    	overflow: hidden;
+    	}
+    	input[type="text"]{
+    		color: #545454;
+	    	height: 60px;
+	    	width: 100%;
+	    	padding: 5px 10px;
+	    	font-size: 16px;
+	    	display: block;
+	    	margin-bottom: 10px;
+	    	box-sizing: border-box;
+    	}
+      input[type="password"]{
+    		color: #545454;
+	    	height: 60px;
+	    	width: 100%;
+	    	padding: 5px 10px;
+	    	font-size: 16px;
+	    	display: block;
+	    	margin-bottom: 10px;
+	    	box-sizing: border-box;
+    	}
+    	input[type="submit"]{
+	    	border: none;
+	    	padding: 15px 30px;
+	    	margin-bottom: 15px;
+	    	background: black;
+	    	color: white;
+	    	float: right;
+    	}
+    	input[type="submit"]:hover{
+	    	background: #3d3938;
+	    	cursor: pointer;
+    	}
+    	a{
+	    	color: #545454;
+	    	display: block;
+    	}
+    	a:hover{
+	    	text-decoration: none;
+    	}
+    </style>
 </head>
 <body>
-    <h1>ゲーム「合トレ!!」</h1>
-    <div>
+    <h1 style="text-align:center; color:#333;">ゲーム「合トレ!!」</h1>
+    <div style="background:black; padding:15px; position:relative;">
         <?php if(empty($_SESSION)){ ?>
-            <h2>GAME START ?</h2>
+            <h2 style="margin-top:60px;">GAME START ?</h2>
             <form method="post">
             <input type="submit" name="start" value="▶︎ゲームスタート">
             </form>
         <?php }else{ ?>
         <h2><?php echo $_SESSION['trainer']->getName().'が現れた！！';?></h2>
-        <div>
+        <div style="height: 150px;">
             <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
         </div>
-        <p>残りトレーニングメニュー:<?php echo $_SESSION['trainer']->getHp(); ?></p>
+        <p style="font-size:14px; text-align:center;">残りトレーニングメニュー:<?php echo $_SESSION['trainer']->getHp(); ?></p>
             <p>合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
             <p>自分の残りエネルギー:<?php echo $_SESSION['human']->getHp(); ?></p>
             <form method="post">
@@ -223,7 +285,7 @@ if(!empty($_POST)){
             </form>
             <?php } ?>
             <div>
-                <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
+                <p style ="position:absolute; right:-350px; top:0; color:black; width:300px;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
             </div>
     </div>
 </body>

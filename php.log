@@ -59,3 +59,186 @@ Stack trace:
 #0 /Applications/MAMP/htdocs/php_obj_op/index.php(188): createTrainer()
 #1 {main}
   thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 08:38:51 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:39:00 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:39:18 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:39:26 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:39:28 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:39:28 Asia/Tokyo] PHP Notice:  Undefined offset: 5 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 08:39:28 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(182): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 08:39:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:44:08 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:44:08 Asia/Tokyo] PHP Notice:  Undefined offset: 6 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 08:44:08 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(182): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 08:44:13 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:44:18 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:44:18 Asia/Tokyo] PHP Notice:  Undefined offset: 6 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 08:44:18 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(155): createTrainer()
+#1 /Applications/MAMP/htdocs/php_obj_op/index.php(169): init()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 08:44:23 Asia/Tokyo] POSTされた！
+[23-Jul-2020 08:44:23 Asia/Tokyo] PHP Notice:  Undefined offset: 4 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 08:44:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(155): createTrainer()
+#1 /Applications/MAMP/htdocs/php_obj_op/index.php(169): init()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:20:51 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:20:51 Asia/Tokyo] PHP Notice:  Undefined offset: 7 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:20:51 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(155): createTrainer()
+#1 /Applications/MAMP/htdocs/php_obj_op/index.php(169): init()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:21:38 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:21:53 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:21:59 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:45:17 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:45:23 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:49:49 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:49:49 Asia/Tokyo] PHP Notice:  Undefined offset: 4 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:49:49 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(182): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:49:54 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:49:54 Asia/Tokyo] PHP Notice:  Undefined offset: 5 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:49:54 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(182): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:50:17 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:50:17 Asia/Tokyo] PHP Notice:  Undefined offset: 7 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:50:17 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(188): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:53:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:53:35 Asia/Tokyo] PHP Notice:  Undefined offset: 4 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:53:35 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(188): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:53:39 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:56:29 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:56:29 Asia/Tokyo] PHP Notice:  Undefined offset: 6 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:56:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(188): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:56:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:56:32 Asia/Tokyo] PHP Notice:  Undefined offset: 5 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:56:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(188): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 09:56:54 Asia/Tokyo] POSTされた！
+[23-Jul-2020 09:56:54 Asia/Tokyo] PHP Notice:  Undefined offset: 6 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 09:56:54 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(155): createTrainer()
+#1 /Applications/MAMP/htdocs/php_obj_op/index.php(169): init()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 10:05:11 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:05:21 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:05:21 Asia/Tokyo] PHP Notice:  Undefined offset: 4 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 10:05:21 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(182): createTrainer()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 10:05:27 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:05:27 Asia/Tokyo] PHP Notice:  Undefined offset: 4 in /Applications/MAMP/htdocs/php_obj_op/index.php on line 142
+[23-Jul-2020 10:05:27 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:143
+Stack trace:
+#0 /Applications/MAMP/htdocs/php_obj_op/index.php(155): createTrainer()
+#1 /Applications/MAMP/htdocs/php_obj_op/index.php(169): init()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 143
+[23-Jul-2020 10:07:00 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:07:06 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:10:51 Asia/Tokyo] POSTされた！
+[23-Jul-2020 10:14:03 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:03:27 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:03:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:03:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:03:49 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:04:00 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:10:11 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:10:11 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 12:10:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:10:22 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:10:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:23:14 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:24:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:25:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:27:41 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:27:41 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 174
+[23-Jul-2020 12:27:41 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:174
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 174
+[23-Jul-2020 12:28:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:28:16 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 174
+[23-Jul-2020 12:28:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:174
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 174
+[23-Jul-2020 12:29:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:29:43 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:29:43 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 12:29:57 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:29:57 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 12:30:22 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:30:41 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:30:51 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:31:21 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:38:28 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:42:53 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function empyt() in /Applications/MAMP/htdocs/php_obj_op/index.php:165
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
