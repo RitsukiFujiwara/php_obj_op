@@ -242,3 +242,312 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 165
+[23-Jul-2020 12:49:12 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:49:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 12:49:16 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:04:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:04:36 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:22 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:26 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:26 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:35 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:38 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:38 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:40 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:40 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:43 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:05:43 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:05:45 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:13:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:13:19 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:13:22 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:13:37 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:13:41 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:15:29 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:15:29 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 173
+[23-Jul-2020 21:15:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:173
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 173
+[23-Jul-2020 21:16:02 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:16:10 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:16:49 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:16:51 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:16:55 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:16:55 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:41 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:20:41 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:43 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:20:43 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:46 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:20:46 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:47 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:20:47 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:49 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:20:49 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(20) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:20:52 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:27:21 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:27:24 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:27:24 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:31:05 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:31:05 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:31:11 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:31:11 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:32:52 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:32:52 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:34:39 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:34:39 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 63
+[23-Jul-2020 21:34:43 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:34:45 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:34:45 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 63
+[23-Jul-2020 21:36:09 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:36:09 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:36:14 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:36:14 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:38:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:38:36 Asia/Tokyo] PHP Warning:  mt_rand(): max(10) is smaller than min(30) in /Applications/MAMP/htdocs/php_obj_op/index.php on line 35
+[23-Jul-2020 21:38:38 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:38:40 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:40:47 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:40:50 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:40:52 Asia/Tokyo] POSTされた！
+[23-Jul-2020 21:40:54 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:24 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:28 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:34 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:37 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:38 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:39 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:40 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:42 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:44 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:34:47 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:35:43 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:35:45 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:35:47 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:35:48 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:35:51 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:37:54 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:37:55 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:37:59 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:38:04 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:38:05 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:38:05 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:17 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:19 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:20 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:21 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:21 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:23 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:24 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:25 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:25 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:26 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:26 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:28 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:28 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:29 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:29 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:29 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:30 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:31 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:32 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:33 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:33 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:33 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:33 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:34 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:34 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 22:47:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:12 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:16 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:18 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:21 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:34 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:36 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:11:39 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:21:34 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:21:35 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:21:37 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:21:49 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:22:09 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:22:12 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:22:13 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:22:15 Asia/Tokyo] POSTされた！
+[23-Jul-2020 23:47:11 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:02:35 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:02:40 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:02:41 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:06:48 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:06:51 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:06:55 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:13:28 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:13:29 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:16 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:22 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:28 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:31 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:31 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:14:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:14:37 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:14:37 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:14:37 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:14:50 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:14:50 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:01 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:02 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:02 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:06 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:15:06 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:16:54 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:16:56 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:16:59 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:17:01 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:17:28 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:17:30 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:17:31 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:17:42 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:27 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:30 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:32 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:34 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:36 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:37 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:18:37 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:18:37 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:42 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:20:42 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:20:42 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:20:52 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:52 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:53 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:53 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:56 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:20:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:38 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:38 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:39 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:39 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:59 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:21:59 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:22:04 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:22:05 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:22:16 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:22:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:274
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 274
+[24-Jul-2020 00:22:32 Asia/Tokyo] PHP Notice:  Undefined index: trainer in /Applications/MAMP/htdocs/php_obj_op/index.php on line 277
+[24-Jul-2020 00:22:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:277
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 277
+[24-Jul-2020 00:22:34 Asia/Tokyo] PHP Notice:  Undefined index: trainer in /Applications/MAMP/htdocs/php_obj_op/index.php on line 277
+[24-Jul-2020 00:22:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:277
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 277
+[24-Jul-2020 00:23:12 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:23:22 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:23:24 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:24:03 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:24:03 Asia/Tokyo] PHP Notice:  Undefined index: trainer in /Applications/MAMP/htdocs/php_obj_op/index.php on line 276
+[24-Jul-2020 00:24:03 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:276
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 276
+[24-Jul-2020 00:25:18 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:25:18 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:25:18 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:26:01 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:01 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:26:01 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:26:04 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:04 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:26:04 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 00:26:15 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:24 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:27 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:30 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:35 Asia/Tokyo] POSTされた！
+[24-Jul-2020 00:26:37 Asia/Tokyo] POSTされた！
+[24-Jul-2020 09:22:31 Asia/Tokyo] POSTされた！
+[24-Jul-2020 09:22:33 Asia/Tokyo] POSTされた！
+[24-Jul-2020 09:22:42 Asia/Tokyo] POSTされた！
+[24-Jul-2020 09:22:44 Asia/Tokyo] POSTされた！
