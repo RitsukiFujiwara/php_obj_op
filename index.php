@@ -216,7 +216,7 @@ if(!empty($_POST)){
     	body{
 	    	margin: 0 auto;
 	    	padding: 150px;
-	    	width: 25%;
+	    	width: 75%;
 	    	background: #fbfbfa;
         color: white;
     	}
@@ -286,18 +286,28 @@ if(!empty($_POST)){
             </form>
         <?php }else{ ?>
         <h2><?php echo $_SESSION['trainer']->getName().'が現れた！！';?></h2>
-        <div style="height: 150px;">
-            <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
-        </div>
-        <div class="hpGauge">
-                <div class="hpGaugeValue" id="trainer_hp" style="width:<?php echo $_SESSION['trainer']->getHp();?>%;"></div>
+            <p style="text-align:center;">合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
+        <div class="player_state" style="width:30%; display:inline-block; margin-right:180px; margin-left:80px;">
+            <div style="height: 150px;">
+                <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
             </div>
-        <p style="font-size:14px; text-align:center;">トレーナーのHP:<?php echo $_SESSION['trainer']->getHp(); ?></p>
-            <p>合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
             <div class="hpGauge">
                 <div class="hpGaugeValue"　id="player_hp" style="width:<?php echo $_SESSION['human']->getHp();?>%;"></div>
             </div>
-            <p>自分の残りエネルギー:<?php echo $_SESSION['human']->getHp(); ?></p>
+            <p style="font-size:14px; text-align:center;">自分の残りエネルギー:<?php echo $_SESSION['human']->getHp(); ?></p>
+        </div>
+        <div class="trainer_state" style="width:30%; display:inline-block;">
+            <div style="height: 150px;">
+                <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
+            </div>
+            <div class="hpGauge">
+                    <div class="hpGaugeValue" id="trainer_hp" style="width:<?php echo $_SESSION['trainer']->getHp();?>%;"></div>
+                </div>
+            <p style="font-size:14px; text-align:center;">トレーナーのHP:<?php echo $_SESSION['trainer']->getHp(); ?></p>
+        </div>
+            <div>
+                <p style ="width:300px; text-align: center; margin-left: auto; margin-right: auto;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
+            </div>
             <form method="post">
                 <input type="submit" name="attack" value="▶︎メニューをこなす">
                 <input type="submit" name="drink" value="▶︎ワークアウトドリンクを飲む">
@@ -305,9 +315,6 @@ if(!empty($_POST)){
                 <input type="submit" name="start" value="▶︎ゲームリスタート">
             </form>
             <?php } ?>
-            <div>
-                <p id="msg_id" style ="position:absolute; right:-350px; top:0; color:black; width:300px;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
-            </div>
     </div>
 
    

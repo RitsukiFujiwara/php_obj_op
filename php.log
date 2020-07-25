@@ -551,3 +551,59 @@ Stack trace:
 [24-Jul-2020 09:22:33 Asia/Tokyo] POSTされた！
 [24-Jul-2020 09:22:42 Asia/Tokyo] POSTされた！
 [24-Jul-2020 09:22:44 Asia/Tokyo] POSTされた！
+[24-Jul-2020 12:06:09 Asia/Tokyo] POSTされた！
+[24-Jul-2020 12:06:09 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 12:06:09 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 13:38:09 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:38:15 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:38:15 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 13:38:15 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 13:38:35 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:38:38 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:38:42 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:38:44 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:39:01 Asia/Tokyo] POSTされた！
+[24-Jul-2020 13:39:09 Asia/Tokyo] POSTされた！
+[24-Jul-2020 20:33:10 Asia/Tokyo] POSTされた！
+[24-Jul-2020 20:33:10 Asia/Tokyo] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 20:33:10 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/php_obj_op/index.php:176
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 176
+[24-Jul-2020 20:33:17 Asia/Tokyo] POSTされた！
+[24-Jul-2020 20:33:20 Asia/Tokyo] POSTされた！
+[24-Jul-2020 20:33:23 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:08 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:11 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:14 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:16 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:21 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:23:24 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:35:44 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:36:40 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:39:04 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:42:02 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:43:17 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:46:53 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:51:23 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:53:22 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:53:57 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:54:29 Asia/Tokyo] POSTされた！
+[25-Jul-2020 20:56:25 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:01:49 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:03:59 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:07:03 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:07:55 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:08:32 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:09:43 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:25:00 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:32:06 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:37:25 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:39:01 Asia/Tokyo] POSTされた！
+[25-Jul-2020 21:41:23 Asia/Tokyo] POSTされた！
