@@ -132,10 +132,10 @@ class History implements HistoryInterface{
 // インスタンス生成
 $human = new Human('トレーニング初心者',KINNIKU::GARI,100,20,30);
 // $trainers[] = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png', 20 , 10 );
-$trainers[] = new Trainer( '健康志向のおじいちゃん', 50, 'img/monster01.png', 10, 20 );
-$trainers[] = new Trainer( 'イキリ大学生', 80, 'img/monster01.png', 20, 30 );
+$trainers[] = new Trainer( '健康志向のおじいちゃん', 50, 'img/trainer5.jpeg', 10, 20 );
+$trainers[] = new Trainer( 'イキリ大学生', 80, 'img/trainer4.jpeg', 20, 30 );
 // $trainers[] = new Trainer('イキリの学生',80,'img/img2.png', 30 , 10 );
-$trainers[] = new SuperSet('ボディビルダーの男',100,'img/img3.png',40,50, mt_rand(80,100));
+$trainers[] = new SuperSet('ボディビルダーの男',100,'img/trainer1.jpeg',40,50, mt_rand(80,100));
 
 
 function createTrainer(){
@@ -288,17 +288,15 @@ if(!empty($_POST)){
         <h2><?php echo $_SESSION['trainer']->getName().'が現れた！！';?></h2>
             <p style="text-align:center;">合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
         <div class="player_state" style="width:30%; display:inline-block; margin-right:180px; margin-left:80px;">
-            <div style="height: 150px;">
-                <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
-            </div>
+            
             <div class="hpGauge">
                 <div class="hpGaugeValue"　id="player_hp" style="width:<?php echo $_SESSION['human']->getHp();?>%;"></div>
             </div>
             <p style="font-size:14px; text-align:center;">自分の残りエネルギー:<?php echo $_SESSION['human']->getHp(); ?></p>
         </div>
         <div class="trainer_state" style="width:30%; display:inline-block;">
-            <div style="height: 150px;">
-                <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="">
+            <div style="height: 150px;　width:200px;">
+                <img src="<?php echo $_SESSION['trainer']->getImg(); ?>" alt="" style="height: 150px;　width:200px;">
             </div>
             <div class="hpGauge">
                     <div class="hpGaugeValue" id="trainer_hp" style="width:<?php echo $_SESSION['trainer']->getHp();?>%;"></div>
@@ -309,10 +307,10 @@ if(!empty($_POST)){
                 <p style ="width:300px; text-align: center; margin-left: auto; margin-right: auto;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
             </div>
             <form method="post">
-                <input type="submit" name="attack" value="▶︎メニューをこなす">
-                <input type="submit" name="drink" value="▶︎ワークアウトドリンクを飲む">
-                <input type="submit" name="escape" value="▶︎逃げる">
                 <input type="submit" name="start" value="▶︎ゲームリスタート">
+                <input type="submit" name="escape" value="▶︎逃げる">
+                <input type="submit" name="drink" value="▶︎ワークアウトドリンクを飲む">
+                <input type="submit" name="attack" value="▶︎メニューをこなす">
             </form>
             <?php } ?>
     </div>

@@ -607,3 +607,58 @@ Stack trace:
 [25-Jul-2020 21:37:25 Asia/Tokyo] POSTされた！
 [25-Jul-2020 21:39:01 Asia/Tokyo] POSTされた！
 [25-Jul-2020 21:41:23 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:08:46 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:08:48 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:08:52 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:08:54 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:08:59 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:10:34 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:11:52 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:11:56 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:12:00 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:12:04 Asia/Tokyo] POSTされた！
+[25-Jul-2020 22:12:06 Asia/Tokyo] POSTされた！
+[26-Jul-2020 12:37:32 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:34:10 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:34:11 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:34:43 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:35:14 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:35:16 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:35:17 Asia/Tokyo] POSTされた！
+[26-Jul-2020 13:35:49 Asia/Tokyo] POSTされた！
+[26-Jul-2020 14:45:51 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:16:13 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:17:49 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:18:37 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:19:11 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:19:16 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:19:19 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:27 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:33 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:36 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:43 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:45 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:51 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:52 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:21:52 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:24:04 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:24:04 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method Human::getImg() in /Applications/MAMP/htdocs/php_obj_op/index.php:292
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 292
+[26-Jul-2020 18:24:59 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:24:59 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method Human::getImg() in /Applications/MAMP/htdocs/php_obj_op/index.php:292
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 292
+[26-Jul-2020 18:25:25 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:25:25 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method Human::getImg() in /Applications/MAMP/htdocs/php_obj_op/index.php:292
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 292
+[26-Jul-2020 18:25:38 Asia/Tokyo] POSTされた！
+[26-Jul-2020 18:25:38 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method Human::getImg() in /Applications/MAMP/htdocs/php_obj_op/index.php:292
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php_obj_op/index.php on line 292
+[26-Jul-2020 18:26:25 Asia/Tokyo] POSTされた！
