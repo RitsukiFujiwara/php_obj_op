@@ -40,16 +40,18 @@ abstract class Creature{
             History::set($this->getName().'の火事場の馬鹿力！！');
         }
         $targetObj->setHp($targetObj->getHp()-$attackPoint);
-        History::set($attackPoint.'ポイントのダメージ！');
+        History::set($attackPoint.'ポイントの負荷を受けた！');
     }
 }
 // 人クラス
 class Human extends Creature{
     protected $kinniku;
-    public function __construct($name,$kinniku,$hp,$attackMin,$attackMax){
+    protected $img;
+    public function __construct($name,$kinniku,$hp,$img,$attackMin,$attackMax){
         $this->name = $name;
         $this->kinniku = $kinniku;
         $this->hp = $hp;
+        $this->img = $img;
         $this->attackMin = $attackMin;
         $this->attackMax = $attackMax;
     }
@@ -59,8 +61,11 @@ class Human extends Creature{
     public function getKinniku(){
         return $this->kinniku;
     }
+    public function getImg(){
+        return $this->img;
+    }
     public function sayCry(){
-        History::set($this->name.'が声を上げる！！');
+        History::set($this->name.'の筋肉が悲鳴を上げる');
         switch($this->kinniku){
             case Kinniku::BODYBILL :
                 History::set('え？こんなもん？');
@@ -93,7 +98,7 @@ class Trainer extends Creature{
         return $this->img;
     }
     public function sayCry(){
-        History::set($this->name.'：まだまだ追い込めよ！！');
+        History::set($this->name.'：お前の限界はこんなものか！？');
     }
 }
 
@@ -130,10 +135,10 @@ class History implements HistoryInterface{
     }
 }
 // インスタンス生成
-$human = new Human('トレーニング初心者',KINNIKU::GARI,100,20,30);
+$human = new Human('トレーニング初心者',KINNIKU::GARI,100,'img/trainer1.jpeg',20,30);
 // $trainers[] = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png', 20 , 10 );
-$trainers[] = new Trainer( '健康志向のおじいちゃん', 50, 'img/trainer5.jpeg', 10, 20 );
-$trainers[] = new Trainer( 'イキリ大学生', 80, 'img/trainer4.jpeg', 20, 30 );
+$trainers[] = new Trainer( 'サプリ大好き男', 50, 'img/trainer5.jpeg', 5, 10 );
+$trainers[] = new Trainer( 'シャドーボクシング野郎', 80, 'img/trainer4.jpeg', 10, 20 );
 // $trainers[] = new Trainer('イキリの学生',80,'img/img2.png', 30 , 10 );
 $trainers[] = new SuperSet('ボディビルダーの男',100,'img/trainer1.jpeg',40,50, mt_rand(80,100));
 
@@ -173,32 +178,38 @@ if(!empty($_POST)){
         if($attackFlg){
             // トレーナーのメニューを行う
             History::clear();
-            History::set($_SESSION['human']->getName().'がトレーニングを行う');
+            History::set($_SESSION['human']->getName().'が'.$_SESSION['trainer']->getName().'のトレーニングを行う!');
             $_SESSION['human']->attack($_SESSION['trainer']);
             $_SESSION['trainer']->sayCry();
             // hpにダメージを受ける
             // History::clear();
-            History::set($_SESSION['trainer']->getName().'のメニュー');
+            History::set($_SESSION['trainer']->getName().'のメニューが'.$_SESSION['human']->getName().'を追い込む!!');
             $_SESSION['trainer']->attack($_SESSION['human']);
             $_SESSION['human']->sayCry();
 
             // 自分のhpが０以下になったらゲームオーバー
             if($_SESSION['human']->getHp() <= 0){
+                $alert = "<script type='text/javascript'>alert('合トレ回数：". $_SESSION['knockDownCount']. "人');</script>";
+                echo $alert;
                 gameOver();
             }else{
                 if($_SESSION['trainer']->getHp() <= 0){
-                    History::set($_SESSION['trainer']->getName().'のメニューを突破した！');
+                    History::clear();
+                    $alert = "<script type='text/javascript'>alert('".$_SESSION['trainer']->getName()."のメニューを突破！');</script>";
+                    echo $alert;
+                    History::set($_SESSION['trainer']->getName().'は颯爽と帰って行った');
                     createTrainer();
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 }
             }
-        // }elseif($drinkFlg){          
+        // }if($drinkFlg){          
         //     History::set($_SESSION['human']->getName().'がワークアウトドリングを飲んだ！');
         //         $_SESSION['human']->getHp()+10;
         }else{
             History::clear();
             History::set('逃げた！');
             createTrainer();
+            
         }
     }
     $_POST = array();
@@ -218,10 +229,10 @@ if(!empty($_POST)){
 	    	padding: 150px;
 	    	width: 75%;
 	    	background: #fbfbfa;
-        color: white;
+        color: rgb(194, 183, 89);
     	}
-    	h1{ color: white; font-size: 20px; text-align: center;}
-      h2{ color: white; font-size: 16px; text-align: center;}
+    	h1{ color: rgb(194, 183, 89); font-size: 20px; text-align: center;}
+      h2{ color: rgb(194, 183, 89); font-size: 16px; text-align: center;}
     	form{
 	    	overflow: hidden;
     	}
@@ -251,11 +262,13 @@ if(!empty($_POST)){
 	    	margin-bottom: 15px;
 	    	background: black;
 	    	color: white;
-	    	float: right;
+            float: right;
+            border: 1px solid white;
     	}
     	input[type="submit"]:hover{
 	    	background: #3d3938;
-	    	cursor: pointer;
+            cursor: pointer;
+            
     	}
     	a{
 	    	color: #545454;
@@ -288,7 +301,9 @@ if(!empty($_POST)){
         <h2><?php echo $_SESSION['trainer']->getName().'が現れた！！';?></h2>
             <p style="text-align:center;">合トレを行った数:<?php echo $_SESSION['knockDownCount']; ?></p>
         <div class="player_state" style="width:30%; display:inline-block; margin-right:180px; margin-left:80px;">
-            
+        <div style="height: 150px;　width:200px;">
+                <img src="<?php echo $_SESSION['human']->getImg(); ?>" alt="" style="height: 150px;　width:200px;">
+            </div>
             <div class="hpGauge">
                 <div class="hpGaugeValue"　id="player_hp" style="width:<?php echo $_SESSION['human']->getHp();?>%;"></div>
             </div>
@@ -304,7 +319,7 @@ if(!empty($_POST)){
             <p style="font-size:14px; text-align:center;">トレーナーのHP:<?php echo $_SESSION['trainer']->getHp(); ?></p>
         </div>
             <div>
-                <p style ="width:300px; text-align: center; margin-left: auto; margin-right: auto;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
+                <p style ="width:700px; text-align: center; margin-left: auto; margin-right: auto;"><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : '';?></p>
             </div>
             <form method="post">
                 <input type="submit" name="start" value="▶︎ゲームリスタート">
