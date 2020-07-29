@@ -77,7 +77,7 @@ class Human extends Creature{
                 History::set('ぐはっ！');
             break;
             case Kinniku::GARI :
-                History::set('グァあああ！');
+                History::set('Oh~気持ちいい〜♡');
             break;
         }
     }
@@ -98,7 +98,7 @@ class Trainer extends Creature{
         return $this->img;
     }
     public function sayCry(){
-        History::set($this->name.'：お前の限界はこんなものか！？');
+        // History::set($this->name.'：お前の限界はこんなものか！？');
     }
 }
 
@@ -135,17 +135,18 @@ class History implements HistoryInterface{
     }
 }
 // インスタンス生成
-$human = new Human('トレーニング初心者',KINNIKU::GARI,100,'img/trainer1.jpeg',20,30);
+$human = new Human('徹夜明けのSE',KINNIKU::GARI,100,'img/SE.jpg',30,40);
 // $trainers[] = new Trainer('トレーニング好きのおじちゃん',50,'img/img01.png', 20 , 10 );
-$trainers[] = new Trainer( 'サプリ大好き男', 50, 'img/trainer5.jpeg', 5, 10 );
-$trainers[] = new Trainer( 'シャドーボクシング野郎', 80, 'img/trainer4.jpeg', 10, 20 );
+$trainers[] = new Trainer( 'ジムに来て飲食しかしないデブ', 100, 'img/eat.jpg', 5, 10 );
+$trainers[] = new Trainer( 'フォームを指摘してくる男', 80, 'img/maunto.jpg', 10, 20 );
 // $trainers[] = new Trainer('イキリの学生',80,'img/img2.png', 30 , 10 );
-$trainers[] = new SuperSet('ボディビルダーの男',100,'img/trainer1.jpeg',40,50, mt_rand(80,100));
+$trainers[] = new SuperSet('肩がメロンの男',100,'img/trainer1.jpeg',40,50, mt_rand(80,100));
+$trainers[] = new SuperSet('腕がチョモランマの男',100,'img/pumpu.jpg',50,60, mt_rand(100,120));
 
 
 function createTrainer(){
     global $trainers;
-    $trainer = $trainers[mt_rand(0,2)];
+    $trainer = $trainers[mt_rand(0,3)];
     History::set($trainer->getName().'が現れた！');
     $_SESSION['trainer'] = $trainer;
 }
@@ -168,7 +169,7 @@ function gameOver(){
 if(!empty($_POST)){
     $attackFlg = (!empty($_POST['attack'])) ? true  : false;
     $startFlg = (!empty($_POST['start'])) ? true : false;
-    // $drinkFlg = (!empyt($_POST['drink'])) ? true : false;
+    $drinkFlg = (!empty($_POST['drink'])) ? true : false;
     error_log('POSTされた！');
 
     if($startFlg){
@@ -202,9 +203,10 @@ if(!empty($_POST)){
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 }
             }
-        // }if($drinkFlg){          
-        //     History::set($_SESSION['human']->getName().'がワークアウトドリングを飲んだ！');
-        //         $_SESSION['human']->getHp()+10;
+        }elseif($drinkFlg){     
+            History::clear();     
+            History::set($_SESSION['human']->getName().'がワークアウトドリングを飲んだ！');
+                $_SESSION['human']->getHp()+10;
         }else{
             History::clear();
             History::set('逃げた！');
@@ -212,6 +214,7 @@ if(!empty($_POST)){
             
         }
     }
+
     $_POST = array();
 }
 ?>
@@ -226,7 +229,7 @@ if(!empty($_POST)){
     <style>
     	body{
 	    	margin: 0 auto;
-	    	padding: 150px;
+	    	padding: 100px;
 	    	width: 75%;
 	    	background: #fbfbfa;
         color: rgb(194, 183, 89);
@@ -290,7 +293,7 @@ if(!empty($_POST)){
     </style>
 </head>
 <body>
-    <h1 style="text-align:center; color:#333;">ゲーム「合トレ!!」</h1>
+    <h1 style="text-align:center; color: black;">ゲーム「合トレ!!」</h1>
     <div style="background:black; padding:15px; position:relative;">
         <?php if(empty($_SESSION)){ ?>
             <h2 style="margin-top:60px;">GAME START ?</h2>
